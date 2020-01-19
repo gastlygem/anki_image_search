@@ -60,6 +60,7 @@ def image_search_url(s_query):
     { "authuser" : "0"
     , "tbm" : "isch"
     , "query" : s_query
+    , "tbs" : "isz:m"
     }
   return s_search_url + "?" + urlencode(d_s_params)
 
